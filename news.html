@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<script type="text/javascript" src="Js/jquery.min.js" ></script> 
+ <script src="Js/bootstrap.js"></script>
+ <script src="css/bootstrap.css"></script>
+<script type="text/javascript">
+
+</script>
+<link rel="stylesheet" href="Css/bootstrap.min.css">
+<style type="text/css">
+/*.wrapper {
+	background-color: #CCC;
+	margin: auto;
+	height: 1500px;
+	width: 90%;
+} */
+.main_nws {
+	background-color: #ffffff;
+	float: left;
+	min-height: 200px;
+	width: 100%;
+	border-radius: 6px;
+}
+.cmt_nws {
+	background-color: #ffffff;
+	clear: none;
+	float: left;
+	min-height: 450px;
+	width: 95%;
+	margin-top: 10px;
+	margin-left: 2.5%;
+}
+.cmt_frm {
+	background-color: #ffffff;
+	margin: auto;
+	height: 300px;
+	width: 98%;
+	-webkit-box-shadow: 0 -1px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 -1px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 -1px 10px rgba(0,0,0,0.2);
+}
+.cmts {
+	background-color: #ffffff;
+	clear: both;
+	min-height: 10px;
+	width: 98%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+
+}
+.rlt_nws {
+	float: left;
+	height: 180px;
+	width: 95%;
+	margin-top: 5px;
+	margin-left: 2.5%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.main_nws_tp {
+	background-color: #ffffff;
+	height: 200px;
+	width: 98%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.main_pht {
+	float: left;
+	height: 200px;
+	width: 30%;
+	border-right-color: #FFF;
+	border-right-style: solid;
+	border-right-width: 2px;
+}
+.nws_ttl {
+	background-color: #333;
+	float: right;
+	height: 200px;
+	width: 68%;
+}
+.nws_ttl_mn {
+	height: 170px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #FFF;
+	padding-left: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18pt;
+	text-transform: uppercase;
+	padding-right: 5px;
+}
+.nws_pstd {
+	background-color: #FFF;
+	clear: none;
+	width: 98%;
+	height: 33px;
+	float: left;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 1%;
+}
+.nws_cnts {
+	background-color: #ffffff;
+	clear: none;
+	float: left;
+	min-height: 200px;
+	width: 98%;
+	margin-top: 10px;
+	margin-left: 1%;
+	-webkit-box-shadow: 0 -1px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 -1px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 -1px 10px rgba(0,0,0,0.2);
+	color: #616262;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.related {
+	clear: none;
+	float: left;
+	height: 30px;
+	width: 100%;
+	margin-top: 5px;
+	background-color: #CCCCCC;
+	color: #333333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16pt;
+	padding-left: 20px;
+}
+
+#like_cntr {
+	background-color: #FFF;
+	clear: none;
+	float: right;
+	height: 30px;
+	width: 20%;
+}
+#postd{
+	clear: both;
+	float: left;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 0px;
+	position: relative;
+	background-color: #f9fbfc;
+	padding-left: 10px;
+	color: #999;
+	}
+	#cmts_wrp {
+	background-color: #ffffff;
+	min-height: 100px;
+	width: 80%;
+	margin-top: 12px;
+	-webkit-box-shadow: 0 -1px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 -1px 10px rgba(0,0,0,0.4);
+	box-shadow: 0 -1px 10px rgba(0,0,0,0.4);	
+}
+#cmts_nmes {
+	clear: none;
+	float: left;
+	height: 30px;
+	width: 50%;
+	background-color: #CCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+	color: #146c8d;
+	padding-left: 20px;
+}
+#cmts_dates {
+	background-color: #CCC;
+	clear: none;
+	float: right;
+	height: 30px;
+	width: 50%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #146c8d;
+}
+#cmts_cnts {
+	background-color: #ffffff;
+	clear: both;
+	float: left;
+	min-height: 70px;
+	width: 100%;
+	border-left: 0;
+	padding-left: 20px;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper_nws">
+  <div class="main_nws">
+    <div class="main_nws_tp">
+      <div class="main_pht"><img src="image/background21.png" width="auto" height="100%"/></div>
+      
+      <div class="nws_ttl">
+        <div class="nws_ttl_mn">According to the official Gazette of the republic of Rwanda, Trade Marks means a sign which denotes</div>
+        <div id="postd"> Posted by : SHEMA ERIC, on 12 jun 2018 &nbsp;  &nbsp;  &nbsp;<span class="fa fa-eye">&nbsp;views:
+        12k
+        </span></div>
+        
+      </div>
+    </div>
+    <div class="nws_cnts">According to the official Gazette of the republic of Rwanda, Trade Marks means a sign which denotes the origin and indicates the quality of a product or service and which is, as asignifier of the corresponding trade reputation, protected by trademark law. Also states that trade mark is a visible sign enabling the products “product mark” or services “service mark” of one company to be distinguished from those of other companies, A trade secret is a formula, practice, process, design, instrument, pattern, commercial method, or compilation of information not generally known or reasonably ascertainable by others by which a business can obtain an economic advantage over competitors or customers, Patents title issued to protect an invention; invention”: idea of a creator “a creator of invention or inventor” which, in practice, provides the solution to a particular technical problem. An invention may consist of, or relate to, a product or a process; relief, product forms or the relevant packaging, Copyright means the exclusive and assignable legal right given to the originator for a fixed number of years to print, publish, perform, film, or record literary, artistic, or musical material. In the following paragraphs we tried to analyze four key concepts constituting the intellectual property. TradeMarks a sign which denotes the origin and indicates the quality of a product or service and which is, as asignifier of the corresponding trade reputation, protected by trademark law. The sign suitable for registration as a mark are all forms of denominations including words, proper names, letters, figures and acronyms, figurative elements such as designs, relief, product forms or the relevant packaging; colors or combinations of colors; any combination of aforementioned signs. Article 134: Registration requirements A mark can be validly registered only if: it is distinctive; it is not imitative; it is not confusing; it is not descriptive. Article 135: A distinctive mark A mark is distinctive if it allows, by nature, the products or services of one company for which it is used to be distinguished from those of other companies. Article 136: An imitative mark A mark is imitative if: it is identical with, or confusingly similar, to a trademark or trade name which is well known in the Republic of Rwanda for identical or similar products of another company; or constitutes a translation of this market or trade name, or if it is well known and is registered in the Republic of Rwanda for products or services which are not identical or similar to those for which registration of the mark is requested provided that, the use of this mark in elation to those products or services indicates a link between those products or services and the owner of the registered well known mark, and insofar this use is likely to damage the interests of the owner of registered mark; it is identical with or similar to a market belonging to another owner and which is already registered, or the filing or the launching of its earlier discovery date happened before, and which advertises the same products or services, or for very similar products or services, or if it so nearly resembles such a market as to be likely to deceive or cause confusion. In the case of the use of an identical sign for identical products or services, a likelihood of confusion shall be presumed. Article 137: A confusing mark ,A mark is confusing if it is likely to mislead the public or traders, particular as regards the geographical origin, quality, nature or characteristics of finished products or services under consideration. Article 138: A descriptive mark a mark is descriptive if it contains, among its components, essential characteristics of the finished product or service under consideration. In accordance with the provisions of Article 135 of this law, words or expressions of common use by consumers and technical words or expressions that pertain to the field to which the products and services belong shall be considered as not having distinctive characteristics. Article 139: A mark not validly registered A mark cannot be validly registered if the application has been made in bad faith or where the sign, if registered, would serve unfair competition purposes. Notwithstanding the provisions of Article 135 of this Law, the Minister, or where appropriate, the competent court shall have the authority to decide whether a mark has acquired secondary meaning or distinctiveness through continued use. In that event the mark shall be registered. In accordance with the provisions of the Article 136 of this Law, the Minister may determine requirements to be fulfilled by a market in the Republic of Rwanda in order to be popular or publicly known, or it may determine </div>
+    <div class="nws_pstd">
+      <div id="like_cntr">
+      <!--###############################################################
+       Like Counter Codes Goes from Here
+       
+       ################################################################-->
+  <button value="like" id="like" class="fa fa-thumbs-o-up"></button>
+	  <!--###############################################################
+      
+       Like Counter Codes ends from Here
+       
+       ################################################################-->
+      
+      </div>
+    
+    </div>
+    
+  </div>
+  <div class="cmt_nws">
+    <div class="cmt_frm">
+    <div style="width:80%; padding-left: 20px;">
+      <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:16pt; text-align:center; width:100%">YOUR COMMENT </div>
+      <form name="form" id="form" >
+      <label>Enter your Names</label>
+        <input class="form-control" type="text" id="name" id="textfield1" placeholder="Names"> 
+        <label>Enter your E-mail</label>
+        <input class="form-control" type="email" id="email" id="textfield2" placeholder="E-mail">
+        <label>Write your comment here</label>
+        <textarea class="form-control" id="comment" cols="" rows="" placeholder="Comment Here..."></textarea> 
+      
+      </form>
+      <div style="text-align:right; margin-top: 5px;"><button class="btn btn-primary" id="submit" value="<?php echo $newsid;?>" onClick="comment()">submit</button></div>
+      </div>
+    </div>
+
+    
+    <div class="cmts">
+     <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:16pt; text-align:center; width:80%"><u>COMMENTS </u></div>
+      <!--    begining of comment div    -->
+	<div id="cmts_wrp">
+  <div id="cmts_nmes">kayo NDAMUTA  </div>
+  <div id="cmts_dates">2 Nov 2018</div>
+  <div id="cmts_cnts"> inkuru yanyu nayikunze courage </div>
+
+  
+</div> <!--    end of comment div    -->
+    </div>
+  </div>
+</div>
+</body>
+</html>

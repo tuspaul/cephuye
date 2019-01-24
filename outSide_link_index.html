@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IHURIRO</title>
+<style type="text/css">
+#header {
+	background-color: #547BD6;
+	clear: none;
+	float: left;
+	height: 100px;
+	width: 99%;
+	z-index: 99;
+	position: fixed;
+}
+#main_wrap {
+	background-color: #FFF;
+	clear: none;
+	float: left;
+	width: 100%;
+	min-height: 600px;
+	margin-top: 8%;
+}
+#mainu {
+	background-color: #A8BCEA;
+	clear: none;
+	float: left;
+	height: 20px;
+	width: 84.5%;
+	text-align: right;
+	color: #FFF;
+}
+#logo {
+	background-color: #069;
+	clear: none;
+	float: left;
+	height: 100px;
+	width: 15.5%;
+}
+#mainu_2 {
+	background-color: #547BD6;
+	width: 54%;
+	height: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	clear: none;
+	float: left;
+	margin-left: 4%;
+	color: #FFF;
+}
+#search {
+	background-color: #FFF;
+	height: 50px;
+	width: 26%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	clear: none;
+}
+#embed2 {
+	  width:100%;
+	   min-height:600px;
+	   overflow:hidden;
+	   border: none;
+	   border:hidden;
+	}
+</style>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link href="css/bootstrap.css" rel="stylesheet"/>
+  <script src="Js/jquery.js"></script>
+  <script src="Js/bootstrap.js"></script>
+<script>
+function load_link()
+{
+	var url1= location.search.substring(1,location.search.length);
+	 $("#embed2").attr("src",url1);
+	}
+</script>
+</head>
+
+<body onload="load_link()">
+<div id="header">
+	<div id="logo"><a href="index.html"><img src="image/logo.png" style="width: 100%; height: 100px"/></a></div>
+
+  <div id="mainu">Kinyarwanda | English | Francais </div>
+  <div id="mainu_2">
+	 
+		<nav class="navbar navbar-default " role="navigation">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+					<div class="horizontal-menu">
+				  <ul>
+					  <li><a href="index.html">HOME</a></li>
+					  <li><a href="#">ABOUT US</a></li>
+					  <li><a href="#">TENDER</a></li>
+					  <li><a href="#">ANNOUNCEMENT</a></li>
+					  <li><a href="#">JOB VACANCIES</a></li>
+				  </ul>
+			  </div>
+			  </div>
+			</div>
+		  </nav>
+	
+	
+
+  </div>
+  
+  <div id="search">
+    <form id="form1" name="form1" method="post" action="">
+      <input type="text" name="textfield" id="textfield" placeholder="Search"  style="width:337px; height:43px;" />
+    </form>
+  </div>
+</div>
+<div id="main_wrap"><embed id="embed2" src="" ></div>
+
+</body>
+</html>
